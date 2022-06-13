@@ -31,8 +31,13 @@ h1 {
     font-size: 1.2em;
 }
 
+#btn-add {
+    background-color: #70f6c9;
+}
+
 #btn-clear {
     margin-left: 10px;
+    background-color: #fa7d7d;
 }
 
 #list-container {
