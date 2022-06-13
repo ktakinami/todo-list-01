@@ -19,9 +19,10 @@ addButton.addEventListener('click', function() {
     paragraph.addEventListener('dblclick', function() {
         paragraph.style.textDecoration = 'none'
     })
-       /*
-        paragraph.addEventListener('dblclick', function() {
-            todoContainer.removeChild(paragraph)
-    }) 
-        */
+})
+
+let clear = document.getElementById('btn-clear')
+
+clear.addEventListener('click', function() {
+    todoContainer.style.display = 'none'
 })
